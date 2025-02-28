@@ -1,9 +1,8 @@
-export type Game  = {
-    name: number;
-    description: string;
-    id: string;
-    logo: string;
-    startDate: Date;
-    endDate: Date;
+export type Game = {
+  name: string
+  description: string
+  id: string
+  logo: string
+  startDate: Date
+  endDate: Date
 }
-  

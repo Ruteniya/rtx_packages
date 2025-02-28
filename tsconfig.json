@@ -1,12 +1,40 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES2021",
+//     "module": "NodeNext",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "outDir": "./dist",
+//     "declaration": true,
+//     "moduleResolution": "NodeNext",
+//     "baseUrl": "./",
+//     "incremental": true,
+//     "skipLibCheck": true,
+//     "strictNullChecks": false,
+//     "noImplicitAny": false,
+//     "strictBindCallApply": false,
+//     "forceConsistentCasingInFileNames": false,
+//     "noFallthroughCasesInSwitch": false,
+//     "allowSyntheticDefaultImports": true,
+//     "sourceMap": true,
+//     "removeComments": true,
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true
+//   },
+//   "include": ["src/**/*"],
+//   "exclude": ["node_modules", "dist"]
+// }
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "module": "NodeNext",
-    "strict": true,
-    "esModuleInterop": true,
-    "outDir": "./dist",
+    "module": "commonjs",
     "declaration": true,
-    "moduleResolution": "NodeNext",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
     "baseUrl": "./",
     "incremental": true,
     "skipLibCheck": true,
@@ -14,13 +42,7 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false,
-    "allowSyntheticDefaultImports": true,
-    "sourceMap": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
+    "noFallthroughCasesInSwitch": false
+  }
 }
+

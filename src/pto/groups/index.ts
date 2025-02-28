@@ -1,2 +1,3 @@
-export * as Category from './category'
-export * as Group from './group'
+export * from './create-group'
+export * from './group'
+export * from './update-group'

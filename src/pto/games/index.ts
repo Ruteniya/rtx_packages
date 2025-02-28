@@ -1,1 +1,3 @@
-export * as Game from './game'
+export * from './create-game'
+export * from './game'
+export * from './update-game'
