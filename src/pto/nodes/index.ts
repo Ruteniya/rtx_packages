@@ -1,2 +1,2 @@
-export * as AnswerType from './answer-type'
-export * as Node from './node'
+export * from './answer-type'
+export * from './node'

@@ -1,7 +1,7 @@
 export type Game = {
+  id: string
   name: string
   description: string
-  id: string
   logo: string
   startDate: Date
   endDate: Date
