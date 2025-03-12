@@ -1,8 +1,7 @@
 import { AnswerType } from './answer-type'
 
-export type Node = {
-  id: string
-  name: string //(unique)
+export type CreateNode = {
+  name: string
   answerType: AnswerType
   question: string
   questionImage?: string

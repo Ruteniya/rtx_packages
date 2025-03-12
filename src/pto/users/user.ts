@@ -1,7 +1,13 @@
-export type User = {
-  id: string;
-  groupId: string;
+import { Group } from '../groups'
+import { UserRoleType } from './user-role'
 
-  username: string;
-  email: string;
-}  
+export type User = {
+  id: string
+  groupId?: string
+  email: string
+  firstName: string
+  lastName: string
+  role: UserRoleType
+
+  group?: Group
+}
