@@ -1,11 +1,3 @@
-import { AnswerType } from './answer-type'
+import { Node } from './node'
 
-export type ShortNode = {
-  id: string
-  name: string
-  answerType: AnswerType
-  question: string
-  questionImage?: string
-  points: number
-  comment?: string
-}
+export type ShortNode = Omit<Node, 'adminDescription' | 'correctAnswer'>

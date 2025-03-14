@@ -1,4 +1,5 @@
 export * as Answers from './answers'
+export * as App from './app'
 export * as Categories from './categories'
 export * as Errors from './errors'
 export * as Games from './games'
