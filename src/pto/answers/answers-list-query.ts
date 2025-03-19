@@ -1,6 +1,6 @@
-import { Pagination } from '../app'
+import { Pagination, Sorting } from '../app'
 
-export type AnswerListQuery = Pagination & {
+export interface AnswerListQuery extends Pagination, Sorting {
   searchText?: string
   processed?: boolean
   correct?: boolean

@@ -10,6 +10,8 @@ export enum Messages {
   GROUP_NOT_FOUND = 'Команду не знайдено',
   USER_NOT_FOUND = 'Користувача не знайдено',
   NODE_NOT_FOUND = 'Точку не знайдено',
+  NODE_CANNOT_BE_UPDATED = 'Цю точку не можна оновити',
+  ANSWER_ALREADY_EXISTS = 'Відповідь вже існує та зарахована',
 
   GAME_ALREADY_EXISTS = 'Гра вже існує. Видаліть її та спробуйте знову',
   NODE_ALREADY_EXISTS = 'Точка з такою назвою вже існує'

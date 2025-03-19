@@ -1,6 +1,6 @@
-import { Answer } from './answer'
+import { PopulatedAnswer } from './populated-answer'
 
 export type AnswersList = {
   total: number
-  items: Answer[]
+  items: PopulatedAnswer[]
 }

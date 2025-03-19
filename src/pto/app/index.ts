@@ -1,1 +1,2 @@
-export * from './padination'
+export * from './sorting'
+export * from './pagination'
