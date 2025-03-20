@@ -1,6 +1,6 @@
-import { User } from './user'
+import { PopulatedUser } from './populated-user'
 
 export type UserList = {
   total: number
-  items: User[]
+  items: PopulatedUser[]
 }

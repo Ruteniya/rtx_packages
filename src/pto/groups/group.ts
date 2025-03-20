@@ -5,5 +5,5 @@ export type Group = {
   name: string
   numberOfParticipants: number
   categoryId: string
-  category?: Category
+  category: Category
 }

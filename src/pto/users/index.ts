@@ -1,5 +1,6 @@
 export * from './change-user-role'
 export * from './create-user'
+export * from './populated-user'
 export * from './user-list'
 export * from './user-role'
 export * from './user'
