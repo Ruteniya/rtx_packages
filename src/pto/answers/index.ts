@@ -1,4 +1,6 @@
 export * from './add-answer'
+export * from './answer-small'
+export * from './answer-small-list'
 export * from './answer'
 export * from './answers-list-query'
 export * from './answers-list'
