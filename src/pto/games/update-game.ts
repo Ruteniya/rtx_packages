@@ -1,6 +1,7 @@
-export class UpdateGame {
-  name?: string
-  description?: string
-  startDate?: Date
-  endDate?: Date
+import { CreateGame } from './create-game'
+
+export type UpdateGame = CreateGame
+
+export type UpdateGameOptions = {
+  deleteLogo?: boolean
 }

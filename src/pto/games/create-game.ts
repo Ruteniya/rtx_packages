@@ -1,4 +1,4 @@
-export class CreateGame {
+export type CreateGame = {
   name: string
   description?: string
   startDate: Date

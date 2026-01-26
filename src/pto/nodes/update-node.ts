@@ -1,12 +1,8 @@
-import { AnswerType } from './answer-type'
+import { CreateNode } from './create-node'
 
-export type UpdateNode = {
-  name?: string
-  answerType?: AnswerType
-  question?: string
-  questionImage?: string
-  adminDescription?: string
-  correctAnswer?: string
-  points?: number
-  comment?: string
+export type UpdateNode = CreateNode
+
+export type UpdateNodeOptions = {
+  deleteQuestionImage?: boolean
+  deleteCorrectAnswerImage?: boolean
 }
