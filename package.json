@@ -1,11 +1,16 @@
 {
   "name": "rtxtypes",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Storage for types that are common for Client and Server of RtX",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "release": "standard-version",
+    "patch": "tsc && npm run release -- --release-as patch",
+    "minor": "tsc && npm run release -- --release-as minor",
+    "major": "tsc && npm run release -- --release-as major",
+    "postrelease": "npm publish && git push"
   },
   "repository": {
     "type": "git",
@@ -20,6 +25,7 @@
   "homepage": "https://github.com/Ruteniya/RtX_Packages#readme",
   "devDependencies": {
     "prettier": "^3.5.2",
+    "standard-version": "^9.5.0",
     "typescript": "^5.7.3"
   },
   "publishConfig": {
