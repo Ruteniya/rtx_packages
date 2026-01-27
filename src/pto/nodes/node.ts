@@ -10,4 +10,5 @@ export type Node = {
   correctAnswer?: string
   points: number
   comment?: string
+  color?: string
 }

@@ -6,4 +6,5 @@ export type NodeSmall = {
   answerType: AnswerType
   question: string
   points: number
+  color?: string
 }

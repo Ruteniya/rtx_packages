@@ -8,4 +8,5 @@ export type CreateNode = {
   correctAnswer?: string
   points: number
   comment?: string
+  color?: string
 }
