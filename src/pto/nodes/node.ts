@@ -11,4 +11,5 @@ export type Node = {
   points: number
   comment?: string
   color?: string
+  categoryIds: string[]
 }

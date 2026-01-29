@@ -5,5 +5,6 @@ export interface AnswerListQuery extends Pagination, Sorting {
   processed?: boolean
   correct?: boolean
   groupIds?: string[]
+  nodeIds?: string[]
   updatedAt?: Date
 }

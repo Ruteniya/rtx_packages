@@ -9,4 +9,5 @@ export type CreateNode = {
   points: number
   comment?: string
   color?: string
+  categoryIds: string[]
 }
