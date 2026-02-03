@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.8](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.7...v1.1.8) (2026-02-03)
+
+
+### Features
+
+* add new exports for file, group-list-query, and result-list-query types ([a8484be](https://github.com/Ruteniya/RtX_Packages/commit/a8484be34d776d691b3252ddebc914dddb929ac4))
+
 ### 1.1.7 (2026-02-03)
 
 
