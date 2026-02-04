@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.13](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.12...v1.1.13) (2026-02-04)
+
+
+### Features
+
+* add SendEmails type and update group exports to include send-emails ([0af27be](https://github.com/Ruteniya/RtX_Packages/commit/0af27beb10011479d19b98ce763f007bfbe55f31))
+
 ### [1.1.12](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.11...v1.1.12) (2026-02-04)
 
 ### [1.1.11](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.10...v1.1.11) (2026-02-04)
