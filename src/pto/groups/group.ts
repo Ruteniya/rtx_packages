@@ -6,4 +6,5 @@ export type Group = {
   numberOfParticipants: number
   categoryId: string
   category: Category
+  emails: string[]
 }
