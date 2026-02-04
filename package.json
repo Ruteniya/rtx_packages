@@ -1,6 +1,6 @@
 {
   "name": "rtxtypes",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "Storage for types that are common for Client and Server of RtX",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

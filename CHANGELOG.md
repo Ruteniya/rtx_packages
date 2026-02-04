@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.11](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.10...v1.1.11) (2026-02-04)
+
+
+### Features
+
+* add emails property to CreateGroup and UpdateGroup types, and update exports in index ([b8fbc27](https://github.com/Ruteniya/RtX_Packages/commit/b8fbc27fd1e56fc8270108a4ff881485422941d9))
+
 ### [1.1.10](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.9...v1.1.10) (2026-02-04)
 
 ### [1.1.9](https://github.com/Ruteniya/RtX_Packages/compare/v1.1.8...v1.1.9) (2026-02-04)
