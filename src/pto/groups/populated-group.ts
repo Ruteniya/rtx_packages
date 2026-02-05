@@ -1,3 +1,4 @@
+import { GroupEmailResult } from '.'
 import { Category } from '../categories'
 import { User } from '../users'
 
@@ -8,4 +9,6 @@ export type PopulatedGroup = {
   categoryId: string
   category: Category
   users: User[]
+  emails: string[]
+  emailResults: GroupEmailResult[]
 }
